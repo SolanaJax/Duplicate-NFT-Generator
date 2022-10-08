@@ -2,7 +2,7 @@
 #    Duplicate NFT Generator - Made by Jax and Anton   #
 #             https://twitter.com/SolanaJax            #
 #                      MIT license                     #
-#                        v0.0.2                        #
+#                        v0.0.3                        #
 #                 Discord Tag Jax#3333                 #
 #------------------------------------------------------#
 
@@ -91,6 +91,7 @@ while fileCount < amountOfNfts:
     file.close()
     nameCount += 1
     fileCount += 1
+    imageCount += 1
     uriCount += 1
     print("Asset-Pair:", fileCount, "has been generated")
 
